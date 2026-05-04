@@ -30,7 +30,7 @@ echo " Configure grub theme "
 echo ""
 echo " Enable OS-Prober "
 sudo sed -i 's/#GRUB_DISABLE_OS_PROBER=false/GRUB_DISABLE_OS_PROBER=false/' /etc/default/grub
-sudo sed -i '/GRUB_TERMINAL="console"/c\#GRUB_TERMINAL="console"' /etc/default/grub
+sudo sed -i '/GRUB_TERMINAL=console/c\#GRUB_TERMINAL=console' /etc/default/grub
 echo ""
 sudo sed -i '/^GRUB_BACKGROUND/d' /etc/default/grub
 sudo sed -i '/^GRUB_COLOR_NORMAL/d' /etc/default/grub

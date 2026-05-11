@@ -21,4 +21,4 @@
 ## by hyprtk (Kori Tk) (2026)
 # ----------------------------------------------------- 
 
-rofi -show drun
+rofi -show drun -config ~/bslx-dots/rofi/config-apps-menu.rasi
